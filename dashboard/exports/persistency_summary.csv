@@ -1,0 +1,53 @@
+scenario,level,grace_days,segment_type,segment_value,n_patients,pct_persistent_90d,pct_persistent_180d,pct_persistent_365d,ci_low_365d,ci_high_365d,median_days_on_therapy
+recorded,any_therapy,30,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,age_band,18-44,138,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,age_band,45-64,275,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,age_band,65+,66,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,comorbidity_band,0-1,262,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,comorbidity_band,2,162,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,comorbidity_band,3+,55,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,first_tx_class,Biguanide,381,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,first_tx_class,Insulin (basal/premix),98,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,gender,Female,258,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,60,gender,Male,221,100.0,100.0,100.0,100.0,100.0,
+recorded,any_therapy,90,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,30,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,age_band,18-44,138,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,age_band,45-64,275,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,age_band,65+,66,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,comorbidity_band,0-1,262,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,comorbidity_band,2,162,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,comorbidity_band,3+,55,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,first_tx_class,Biguanide,381,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,first_tx_class,Insulin (basal/premix),98,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,gender,Female,258,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,60,gender,Male,221,100.0,100.0,100.0,100.0,100.0,
+recorded,index_class,90,Overall,All patients,479,100.0,100.0,100.0,100.0,100.0,
+simulated,any_therapy,30,Overall,All patients,479,73.6,49.3,24.7,20.8,28.7,178.0
+simulated,any_therapy,60,Overall,All patients,479,86.3,69.8,49.1,44.5,53.6,360.0
+simulated,any_therapy,60,age_band,18-44,138,80.1,62.0,43.9,35.5,52.3,295.0
+simulated,any_therapy,60,age_band,45-64,275,87.9,72.5,49.9,43.8,55.9,364.0
+simulated,any_therapy,60,age_band,65+,66,92.4,74.1,56.5,44.3,68.7,419.0
+simulated,any_therapy,60,comorbidity_band,0-1,262,85.0,70.9,50.8,44.6,56.9,375.0
+simulated,any_therapy,60,comorbidity_band,2,162,87.4,68.7,46.4,38.5,54.3,336.0
+simulated,any_therapy,60,comorbidity_band,3+,55,89.1,67.3,48.8,35.5,62.1,359.0
+simulated,any_therapy,60,first_tx_class,Biguanide,381,85.1,69.8,49.2,44.1,54.3,359.0
+simulated,any_therapy,60,first_tx_class,Insulin (basal/premix),98,90.7,69.6,48.4,38.2,58.7,361.0
+simulated,any_therapy,60,gender,Female,258,84.0,65.6,45.8,39.7,52.0,335.0
+simulated,any_therapy,60,gender,Male,221,89.0,74.6,52.8,46.1,59.6,394.0
+simulated,any_therapy,90,Overall,All patients,479,87.3,71.5,52.2,47.7,56.8,384.0
+simulated,index_class,30,Overall,All patients,479,71.9,47.1,23.7,19.8,27.6,166.0
+simulated,index_class,60,Overall,All patients,479,85.6,68.5,48.2,43.7,52.8,358.0
+simulated,index_class,60,age_band,18-44,138,79.4,59.8,43.1,34.7,51.6,270.0
+simulated,index_class,60,age_band,45-64,275,87.5,71.8,49.2,43.2,55.2,358.0
+simulated,index_class,60,age_band,65+,66,90.9,72.6,54.9,42.7,67.2,419.0
+simulated,index_class,60,comorbidity_band,0-1,262,85.0,70.5,50.4,44.2,56.5,368.0
+simulated,index_class,60,comorbidity_band,2,162,86.7,67.4,46.4,38.5,54.3,336.0
+simulated,index_class,60,comorbidity_band,3+,55,85.5,61.8,43.6,30.4,56.7,290.0
+simulated,index_class,60,first_tx_class,Biguanide,381,84.4,68.2,48.1,43.1,53.2,355.0
+simulated,index_class,60,first_tx_class,Insulin (basal/premix),98,90.7,69.6,48.4,38.2,58.7,361.0
+simulated,index_class,60,gender,Female,258,83.6,64.4,45.0,38.9,51.2,320.0
+simulated,index_class,60,gender,Male,221,88.1,73.2,52.0,45.3,58.7,394.0
+simulated,index_class,90,Overall,All patients,479,86.9,70.2,51.0,46.4,55.5,373.0

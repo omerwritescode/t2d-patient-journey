@@ -1,0 +1,7 @@
+step,rule,n_patients
+0,All synthetic patients,15814
+1,R1 T2D diagnosis (SNOMED 44054006),1918
+2,R2 Index dx 2010-01-01 to cut-off minus 365d,830
+3,R3 Age 18+ at index dx,830
+4,R4 New user (no T2D drug > 30d before dx),828
+5,R5 Started a T2D drug (final cohort),479
